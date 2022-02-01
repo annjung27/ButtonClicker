@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a,
+button,
+input {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* Nav-Bar */
+
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    background-color: #EDCDBB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.nav-bar input {
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+.nav-bar button {
+    width: 80px;
+    height: 30px;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    box-shadow: 3px 3px 5px black;
+}
+
+/* Contents */
+
+.contents {
+    display: flex;
+}
+
+/* Column 1 */
+
+.column-1 {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.content-box {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.column-1 .content-box {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.content-title {
+    text-align: center;
+}
+
+.content-title p:nth-child(3) {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.content-detail {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 40px;
+}
+
+.content-detail a {
+    color: dodgerblue;
+}
+
+.btn-like {
+    width: 90px;
+    height: 30px;
+    font-weight: 700;
+    background-color: #FFAB76;
+}
+
+/* Column 2 */
+
+.column-2 {
+    flex: 2;
+}
+
+.column-2 .content-box {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.definition h2 {
+    margin-bottom: 15px;
+}
+
+.btn-addDesc {
+    width: 200px;
+    height: 30px;
+    background-color: #61B15A;
+}
